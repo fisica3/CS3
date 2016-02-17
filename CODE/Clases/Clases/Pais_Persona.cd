@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="PlainConcepts.Clases.Pais">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAQAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pais.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlainConcepts.Clases.Persona">
+    <Position X="3" Y="0.5" Width="2.5" />
+    <NestedTypes>
+      <Class Name="PlainConcepts.Clases.Persona.Persona" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Persona.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAKAAASEgAAAgAAAAAAAAhAAAAAQAgAAAAA=</HashCode>
+      <FileName>Persona.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Enum Name="PlainConcepts.Clases.SexoPersona">
+    <Position X="0.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Persona.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

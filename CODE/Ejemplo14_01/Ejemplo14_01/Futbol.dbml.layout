@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Futbol">
+  <DataContextMoniker Name="/FutbolDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ebd30642-f88a-4007-920e-1748b09b98c7" absoluteBounds="0.75, 0.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/FutbolDataContext/Club" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c5f78b8a-9fd8-4d2d-b91f-011097af151d" absoluteBounds="0.765, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e5360dde-463c-4d99-8ce7-f861e1f7fb21" absoluteBounds="3.75, 0.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/FutbolDataContext/Pais" />
+      <nestedChildShapes>
+        <elementListCompartment Id="80410354-7af4-4bf8-a22e-8e9929b6bd03" absoluteBounds="3.7649999999999997, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="eafbfa1c-314a-473a-87e3-69c50b123d51" absoluteBounds="2.75, 2.375, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/FutbolDataContext/Futbolista" />
+      <nestedChildShapes>
+        <elementListCompartment Id="89a6e91c-7088-4829-b73c-4749a44a3100" absoluteBounds="2.765, 2.835, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.75 : 1.8862939453125); (1.75 : 2.125); (3.75 : 2.125); (3.75 : 2.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/FutbolDataContext/Club/Club_Futbolista" />
+      <nodes>
+        <classShapeMoniker Id="ebd30642-f88a-4007-920e-1748b09b98c7" />
+        <classShapeMoniker Id="eafbfa1c-314a-473a-87e3-69c50b123d51" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.3125 : 1.69399251302083); (4.3125 : 2.375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/FutbolDataContext/Pais/Pais_Futbolista" />
+      <nodes>
+        <classShapeMoniker Id="e5360dde-463c-4d99-8ce7-f861e1f7fb21" />
+        <classShapeMoniker Id="eafbfa1c-314a-473a-87e3-69c50b123d51" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

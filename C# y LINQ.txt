@@ -1,0 +1,14 @@
+CÓDIGO DE EJEMPLO DEL LIBRO:
+
+"C# 3.0 y LINQ" (2ª edición revisada)
+Octavio Hernández Leal
+ISBN: 978-84-935489-5-7
+
+Este libro se ha concebido como una presentación completa y práctica de las nuevas posibilidades que ofrece a los desarrolladores la versión 3.0 de C# (implementada en .NET Framework 3.5 y Visual Studio 2008), incluyendo las relacionadas con la tecnología LINQ (Language Integrated Query – Consultas integradas en los lenguajes). La obra resultará de indudable interés para todos los programadores de C#, que desearán dominar lo antes posible estas nuevas características de C# y .NET que les permitirán aumentar notablemente su productividad.
+	• Para aquellos que aún sigan trabajando con la versión original de C# y no estuvieran al tanto de las principales novedades que aportó en su día la versión 2.0 del lenguaje, como los genéricos, el libro ofrece al inicio cuatro capítulos introductorios que repasan estos fundamentos. 
+	• A continuación, se describen una por una todas las nuevas características que se incorporan a C# en esta tercera ola, haciendo especial énfasis en las más complejas: los métodos extensores, las expresiones lambda y los árboles de expresiones.
+	• Los tres siguientes capítulos describen los fundamentos de LINQ, su reflejo en el lenguaje C# 3.0 y la librería básica en que éstos se apoyan (LINQ to Objects), así como los mecanismos previstos por la tecnología para garantizar su extensibilidad, que hace posible el desarrollo de proveedores LINQ personalizados.
+	• Finalmente, la última parte del libro describe las posibilidades que ofrecen los principales proveedores de LINQ incorporados de serie en .NET 3.5: LINQ to XML (para el tratamiento de documentos XML), LINQ to DataSet (para el trabajo con conjuntos de datos en memoria) y LINQ to SQL (para la ejecución de consultas integradas contra bases de datos SQL), con ejemplos de cómo estas tecnologías pueden ayudarnos a alcanzar cotas de expresividad nunca antes vistas en la programación contra tan disímiles fuentes de datos.
+Al finalizar la lectura de este libro, tendrá una visión muy clara de todos los recursos que ponen a su alcance C# 3.0 y LINQ para que pueda desarrollar de una manera mucho más productiva que nunca antes soluciones más fáciles de codificar, comprender y mantener.
+
+www.krasispress.com

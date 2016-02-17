@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQToTFS", "LINQToTFS\LINQToTFS.csproj", "{092F5A80-2293-45EB-B65F-5BC33F5677EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample1", "Sample1\Sample1.csproj", "{2AA5D601-877B-4418-BB90-DA6D8F2C6822}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{092F5A80-2293-45EB-B65F-5BC33F5677EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{092F5A80-2293-45EB-B65F-5BC33F5677EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{092F5A80-2293-45EB-B65F-5BC33F5677EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{092F5A80-2293-45EB-B65F-5BC33F5677EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AA5D601-877B-4418-BB90-DA6D8F2C6822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA5D601-877B-4418-BB90-DA6D8F2C6822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA5D601-877B-4418-BB90-DA6D8F2C6822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA5D601-877B-4418-BB90-DA6D8F2C6822}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

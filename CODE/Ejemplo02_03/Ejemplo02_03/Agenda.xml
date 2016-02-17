@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<personas>
+  <persona nombre="Diana" sexo="M" />
+  <persona nombre="Dennis" sexo="V" />
+</personas> 

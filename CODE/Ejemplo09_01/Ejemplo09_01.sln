@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio Codename Orcas
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo09_01", "Ejemplo09_01\Ejemplo09_01.csproj", "{0637CEE1-4DCE-4017-99D4-95B801CA2FA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clases", "..\Clases\Clases\Clases.csproj", "{5D8652A6-01FD-4C67-857B-690BF3960C59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectDumper", "..\ObjectDumper\ObjectDumper.csproj", "{D2BE27AE-A151-4259-931A-D95B906E10B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0637CEE1-4DCE-4017-99D4-95B801CA2FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0637CEE1-4DCE-4017-99D4-95B801CA2FA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0637CEE1-4DCE-4017-99D4-95B801CA2FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0637CEE1-4DCE-4017-99D4-95B801CA2FA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D8652A6-01FD-4C67-857B-690BF3960C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D8652A6-01FD-4C67-857B-690BF3960C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D8652A6-01FD-4C67-857B-690BF3960C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D8652A6-01FD-4C67-857B-690BF3960C59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2BE27AE-A151-4259-931A-D95B906E10B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2BE27AE-A151-4259-931A-D95B906E10B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2BE27AE-A151-4259-931A-D95B906E10B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2BE27AE-A151-4259-931A-D95B906E10B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

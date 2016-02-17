@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="FUTBOL2006" Class="FutbolDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\SQLExpress;Initial Catalog=FUTBOL2006;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="FUTBOL2006ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Club" Member="Club">
+    <Type Name="Club">
+      <Column Name="Codigo" Type="System.String" DbType="Char(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Ciudad" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Club_Futbolista" Member="Futbolista" OtherKey="CodigoClub" Type="Futbolista" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Pais" Member="Pais">
+    <Type Name="Pais">
+      <Column Name="Codigo" Type="System.String" DbType="Char(2) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Pais_Futbolista" Member="Futbolista" OtherKey="CodigoPaisNacimiento" Type="Futbolista" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Futbolista" Member="Futbolista">
+    <Type Name="Futbolista">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nombre" Type="System.String" DbType="VarChar(75) NOT NULL" CanBeNull="false" />
+      <Column Name="Sexo" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Column Name="FechaNacimiento" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CodigoPaisNacimiento" Type="System.String" DbType="Char(2) NOT NULL" CanBeNull="false" />
+      <Column Name="CodigoClub" Type="System.String" DbType="Char(3) NOT NULL" CanBeNull="false" />
+      <Column Name="Posicion" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+      <Association Name="Club_Futbolista" Member="Club" ThisKey="CodigoClub" Type="Club" IsForeignKey="true" />
+      <Association Name="Pais_Futbolista" Member="Pais" ThisKey="CodigoPaisNacimiento" Type="Pais" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
