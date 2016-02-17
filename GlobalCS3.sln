@@ -4,16 +4,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo01_01", "CODE\Ejemplo01_01\Ejemplo01_01\Ejemplo01_01.csproj", "{542F2D2B-EF2A-431C-9346-D04B894683D0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5D8652A6-01FD-4C67-857B-690BF3960C59} = {5D8652A6-01FD-4C67-857B-690BF3960C59}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo01_02", "CODE\Ejemplo01_02\Ejemplo01_02.csproj", "{F0488ACC-9814-42F9-A60F-AD078CB09D76}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5D8652A6-01FD-4C67-857B-690BF3960C59} = {5D8652A6-01FD-4C67-857B-690BF3960C59}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo02_01", "CODE\Ejemplo02_01\Ejemplo02_01\Ejemplo02_01.csproj", "{9D8960AD-83AA-4B36-9E17-6323F14AB933}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5D8652A6-01FD-4C67-857B-690BF3960C59} = {5D8652A6-01FD-4C67-857B-690BF3960C59}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo02_02", "CODE\Ejemplo02_02\Ejemplo02_02\Ejemplo02_02.csproj", "{B15ABF15-A2BC-474F-9111-209DB96FE32F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo02_03", "CODE\Ejemplo02_03\Ejemplo02_03\Ejemplo02_03.csproj", "{18C06511-0335-4CDD-B4AF-BA3F193066EF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5D8652A6-01FD-4C67-857B-690BF3960C59} = {5D8652A6-01FD-4C67-857B-690BF3960C59}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo02_04", "CODE\Ejemplo02_04\Ejemplo02_04\Ejemplo02_04.csproj", "{BD677ECF-2D13-4B75-A643-0B9DAB9EB9BE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5D8652A6-01FD-4C67-857B-690BF3960C59} = {5D8652A6-01FD-4C67-857B-690BF3960C59}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo03_01", "CODE\Ejemplo03_01\Ejemplo03_01\Ejemplo03_01.csproj", "{30B1D923-FAB6-4BCD-852E-EFC0A2DCACB4}"
 EndProject
@@ -62,6 +77,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectDumper", "CODE\ObjectDumper\ObjectDumper.csproj", "{D2BE27AE-A151-4259-931A-D95B906E10B6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Futbol", "CODE\Clases\Futbol\Futbol.csproj", "{002C2010-27C1-48D1-B4FB-9EF85660842F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5D8652A6-01FD-4C67-857B-690BF3960C59} = {5D8652A6-01FD-4C67-857B-690BF3960C59}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
